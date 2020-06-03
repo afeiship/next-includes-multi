@@ -3,12 +3,12 @@
   var nx = global.nx || require('@feizheng/next-js-core2');
   var DEFAULT_OPTIONS = {
     target: [],
-    andOr: false
+    aor: false
   }
 
   nx.includesMulti = function (inString, inOptions) {
     var options = nx.mix(null, DEFAULT_OPTIONS, inOptions);
-    var action = options.andOr ? 'every' : 'some';
+    var action = options.aor ? 'every' : 'some';
     return options.target[action](function (item) {
       return inString.includes(item);
     });
