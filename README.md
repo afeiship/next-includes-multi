@@ -13,7 +13,7 @@ import '@feizheng/next-includes-multi';
 const abc = 'abcdef';
 const target = ['a', 'b', 'ddd'];
 
-nx.includesMulti(abc, { target, andOr: true });
+nx.includesMulti(abc, { target, aor: true });
 nx.includesMulti(abc, { target });
 
 //some: false

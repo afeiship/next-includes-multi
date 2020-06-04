@@ -2,8 +2,8 @@
  * name: @feizheng/next-includes-multi
  * description: Check if string includes multiple for next.
  * homepage: https://github.com/afeiship/next-includes-multi
- * version: 1.0.1
- * date: 2020-06-03T10:11:56.517Z
+ * version: 1.0.2
+ * date: 2020-06-04T00:52:17.226Z
  * license: MIT
  */
 
