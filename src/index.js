@@ -1,19 +1,7 @@
-/*!
- * name: @feizheng/next-includes-multi
- * description: Check if string includes multiple for next.
- * homepage: https://github.com/afeiship/next-includes-multi
- * version: 1.0.2
- * date: 2020-06-04T00:52:17.226Z
- * license: MIT
- */
-
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
-  var DEFAULT_OPTIONS = {
-    target: [],
-    aor: false
-  }
+  var nx = global.nx || require('@jswork/next');
+  var DEFAULT_OPTIONS = { target: [], aor: false };
 
   nx.includesMulti = function (inString, inOptions) {
     var options = nx.mix(null, DEFAULT_OPTIONS, inOptions);
@@ -27,5 +15,3 @@
     module.exports = nx.includesMulti;
   }
 })();
-
-//# sourceMappingURL=next-includes-multi.js.map
