@@ -3,7 +3,7 @@
  * description: Check if string includes multiple for next.
  * homepage: https://github.com/afeiship/next-includes-multi
  * version: 1.0.0
- * date: 2020-11-20 13:24:45
+ * date: 2020-11-20 13:25:28
  * license: MIT
  */
 
